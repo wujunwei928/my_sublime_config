@@ -1,0 +1,30 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"ColorPicker",
+		"ConvertToUTF8",
+		"DocBlockr",
+		"Emmet",
+		"FileDiffs",
+		"Git",
+		"Github Tools",
+		"jQuery",
+		"JsFormat",
+		"MarkdownEditing",
+		"Modific",
+		"Package Control",
+		"SASS Build",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeREPL",
+		"SVN",
+		"SyncedSideBar",
+		"Terminal"
+	]
+}
