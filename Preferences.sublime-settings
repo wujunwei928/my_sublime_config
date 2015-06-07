@@ -1,12 +1,13 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Solarized (Dark) (SL).tmTheme",
-	"font_size": 16,
+	"color_scheme": "Packages/User/SublimeLinter/Solarized (Light) (SL).tmTheme",
+	"font_face": "Yahei Mono",
+	"font_size": 14,
 	"ignored_packages":
 	[
-		"Markdown",
-		"Vintage"
+		"Vintage",
+		"Markdown"
 	],
-	"line_padding_bottom": 6,
-	"line_padding_top": 6,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
 	"word_wrap": true
 }
