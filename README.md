@@ -25,39 +25,28 @@ http://https://packagecontrol.io/installation
 
 三: 用 package control安装常用插件
 
-{
-    "in_process_packages":
-    [
-    ],
-    "installed_packages":
-    [
-        "AdvancedNewFile",            //快速创建文件
-        "Alignment",                       //
-        "ColorPicker",                    //颜色采集器
-        "ConvertToUTF8",              //兼容GBK编码
-        "DocBlockr",                      //生成指定格式的
-        "Emmet",                           //Zen Coding
-        "FileDiffs",                         //文件比较
-        "Git",                                 //git命令
-        "Github Tools",                   //github工具
-        "jQuery",                            //jQuery代码提示
-        "JsFormat",                        //js代码格式化
-        "MarkdownEditing",           //markdown编辑预览
-        "Modific",                          //智能显示版本控制工具的文件所做的修改(包括svn,git等, 安装这个插件之前,要先安装git插件)
-        "Package Control",             //安装其他插件的插件
-        "SASS Build",                     //编写CSS的预处理器
-        "SFTP",                              //内置的ftp工具
-       
-        //侧边栏右键菜单功能扩充(增加了很多右键选项, 并且移除了右键菜单中的 '删除文件夹' 选项, 防止误操作删除整个项目)
-        "SideBarEnhancements",
-            
-        "SublimeLinter",                //据说是只能提示编码错误的插件, 还没学会怎么用
-        "SublimeREPL",                 //
-        "SVN",                               //svn工具
-        "SyncedSideBar",               //
-        "Terminal"                         //在Sublime中打开终端, 并定位到 当前文件 或 当前项目目录 所在的位置 
-    ]
-}
+    AdvancedNewFile     快速创建文件
+    Alignment           
+    ColorPicker         颜色采集器
+    ConvertToUTF8        兼容GBK编码
+    DocBlockr            生成指定格式的
+    Emmet                Zen Coding
+    FileDiffs            文件比较
+    Git                  git命令
+    Github Tools         github工具
+    jQuery               jQuery代码提示
+    JsFormat             js代码格式化
+    MarkdownEditing      markdown编辑预览
+    Modific              智能显示版本控制工具的文件所做的修改(包括svn,git等, 安装这个插件之前,要先安装git插件)
+    Package Control      安装其他插件的插件
+    SASS Build           编写CSS的预处理器
+    SFTP                 内置的ftp工具
+    SideBarEnhancements  侧边栏右键菜单功能扩充, 并且移除了'删除文件夹'选项, 防止误操作删除整个项目
+    SublimeLinter        据说是只能提示编码错误的插件, 还没学会怎么用
+    SublimeREPL          在编辑器中快速打开各种程序交互截面
+    SVN                  svn工具
+    SyncedSideBar        打开文件得时候, 侧边栏自动定位到文件所在得文件夹
+    Terminal             在Sublime中打开终端, 并定位到 当前文件 或 当前项目目录 所在的位置 
 
 
 
