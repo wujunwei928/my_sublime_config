@@ -155,5 +155,5 @@ http://https://packagecontrol.io/installation
 
 
 ### 官方参考文档:
-http://www.sublimetext.com/docs/3/
+http://www.sublimetext.com/docs/3/  
 http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/
