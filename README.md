@@ -25,9 +25,11 @@ http://https://packagecontrol.io/installation
 
 ### 三: 用 package control安装常用插件
 
-    AdvancedNewFile     快速创建文件
+    AdvancedNewFile      快速创建文件
     Alignment           
-    ColorPicker         颜色采集器
+    Anaconda		 超强python提示插件
+    ChineseLocalization  汉化插件(支持简体中文,繁体中文,日文)
+    ColorPicker          颜色采集器
     ConvertToUTF8        兼容GBK编码
     DocBlockr            生成指定格式的
     Emmet                Zen Coding
