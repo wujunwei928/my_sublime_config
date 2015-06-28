@@ -27,7 +27,7 @@ http://https://packagecontrol.io/installation
 
     AdvancedNewFile      快速创建文件
     Alignment           
-    Anaconda		 超强python提示插件
+    Anaconda		     超强python提示插件
     ChineseLocalization  汉化插件(支持简体中文,繁体中文,日文)
     ColorPicker          颜色采集器
     ConvertToUTF8        兼容GBK编码
@@ -155,4 +155,5 @@ http://https://packagecontrol.io/installation
 
 
 ### 官方参考文档:
+http://www.sublimetext.com/docs/3/
 http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/
