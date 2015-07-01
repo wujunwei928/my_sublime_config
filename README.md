@@ -28,6 +28,7 @@ http://https://packagecontrol.io/installation
     AdvancedNewFile      快速创建文件
     Alignment           
     Anaconda		     超强python提示插件
+    AutoFileName         文件路径提示插件
     ChineseLocalization  汉化插件(支持简体中文,繁体中文,日文)
     ColorPicker          颜色采集器
     ConvertToUTF8        兼容GBK编码
@@ -36,6 +37,7 @@ http://https://packagecontrol.io/installation
     FileDiffs            文件比较
     Git                  git命令
     Github Tools         github工具
+    Google Search        在sublime下用google搜索
     jQuery               jQuery代码提示
     JsFormat             js代码格式化
     MarkdownEditing      markdown编辑预览
@@ -157,3 +159,7 @@ http://https://packagecontrol.io/installation
 ### 官方参考文档:
 http://www.sublimetext.com/docs/3/  
 http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/
+
+### 其他
+https://github.com/jikeytang/sublime-text   
+http://vinta.ws/code/must-have-sublime-text-packages.html
