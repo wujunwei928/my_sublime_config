@@ -40,7 +40,8 @@ http://https://packagecontrol.io/installation
     Google Search        在sublime下用google搜索
     jQuery               jQuery代码提示
     JsFormat             js代码格式化
-    MarkdownEditing      markdown编辑预览
+    MarkdownEditing      markdown编辑
+    Markdown Preview     markdown预览
     Modific              智能显示版本控制工具的文件所做的修改(包括svn,git等, 安装这个插件之前,要先安装git插件)
     Package Control      安装其他插件的插件
     SASS Build           编写CSS的预处理器
