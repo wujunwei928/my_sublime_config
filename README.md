@@ -5,7 +5,7 @@ my sublime text 3 config
 
 ### 一: 下载地址
 
-Sublime Text 2 下载地址:  http://www.sublimetext.com/2
+Sublime Text 2 下载地址:  http://www.sublimetext.com/2   
 Sublime Text 3 下载地址:  http://www.sublimetext.com/3
 
 
