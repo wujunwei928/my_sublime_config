@@ -26,7 +26,7 @@ http://https://packagecontrol.io/installation
 ### 三: 用 package control安装常用插件
 
     AdvancedNewFile      快速创建文件
-    Alignment           
+    Alignment            代码格式的自动对齐
     Anaconda		     超强python提示插件
     AutoFileName         文件路径提示插件
     ChineseLocalization  汉化插件(支持简体中文,繁体中文,日文)
