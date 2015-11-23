@@ -51,7 +51,8 @@ http://https://packagecontrol.io/installation
     SublimeREPL          在编辑器中快速打开各种程序交互截面
     SVN                  svn工具
     SyncedSideBar        打开文件得时候, 侧边栏自动定位到文件所在得文件夹
-    Terminal             在Sublime中打开终端, 并定位到 当前文件 或 当前项目目录 所在的位置 
+    Terminal             在Sublime中打开终端, 并定位到 当前文件 或 当前项目目录 所在的位置
+    PackageResourceViewer 方便查看,修改sublime的package包文件内容, 因为package文件直接打开是看不了内容的
 
 
 
