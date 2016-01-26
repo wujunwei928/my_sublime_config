@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -9,6 +10,7 @@
 		"Anaconda",
 		"AutoFileName",
 		"ChineseLocalization",
+		"Codecs33",
 		"ColorPicker",
 		"ConvertToUTF8",
 		"DocBlockr",
@@ -23,7 +25,10 @@
 		"MarkdownEditing",
 		"Modific",
 		"Package Control",
+		"PackageResourceViewer",
 		"Phpcs",
+		"R-Box",
+		"R-snippets",
 		"SASS Build",
 		"SFTP",
 		"SideBarEnhancements",
