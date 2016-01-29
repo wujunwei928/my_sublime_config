@@ -1,13 +1,17 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Solarized (Light) (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Solarized (Light) (SL).tmTheme",	//主题样式
+	"draw_white_space": "all",		// 显示空白字符, tab, 空格, (不显示换行符/(ㄒoㄒ)/~~)
 	"font_face": "Yahei Mono",
-	"font_size": 14,
+	"font_size": 12,	// 字体大小
+	"tab_size": 4,		// tab长度: 四个空格
+	"translate_tabs_to_spaces": true,	// 输入时, 将tab扩展为空格
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown"
+		"Markdown",
+		"SFTP",
+		"Vintage"	// 注释开启vim模式
 	],
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
-	"word_wrap": true
+	"word_wrap": true		// 自动换行
 }
