@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
 
-# °²×°±àÒë»·¾³
-sudo apt-get install build-essential   #Õâ¸ö°²×°ÍæËÑ¹·ÊäÈë·¨Ö®ºó£¬Ó¦¸Ã¾ÍÒÑ¾­°²×°ÁË
-sudo apt-get install libgtk2.0-dev     # Õâ¸öÒ»¶¨Òª°²×°£¬ ·ñÔòÏÂÃæµÄcÎÄ¼ş±àÒë²»³É¹¦
+# å®‰è£…ç¼–è¯‘ç¯å¢ƒ
+sudo apt-get install build-essential   #è¿™ä¸ªå®‰è£…ç©æœç‹—è¾“å…¥æ³•ä¹‹åï¼Œåº”è¯¥å°±å·²ç»å®‰è£…äº†
+sudo apt-get install libgtk2.0-dev     # è¿™ä¸ªä¸€å®šè¦å®‰è£…ï¼Œ å¦åˆ™ä¸‹é¢çš„cæ–‡ä»¶ç¼–è¯‘ä¸æˆåŠŸ
 
 # 
 gcc -shared -o libsublime-imfix.so sublime_imfix.c  `pkg-config --libs --cflags gtk+-2.0` -fPIC
 sudo mv libsublime-imfix.so /opt/sublime_text/
 
 # fix sublime command line
-# ÔÚÃüÁîĞĞÊ¹ÓÃsublÃüÁî´ò¿ªÎÄ¼şµÄÊ±ºò, ¿ÉÒÔÊäÈëÖĞÎÄ
+# åœ¨å‘½ä»¤è¡Œä½¿ç”¨sublå‘½ä»¤æ‰“å¼€æ–‡ä»¶çš„æ—¶å€™, å¯ä»¥è¾“å…¥ä¸­æ–‡
 sudo sed -i 's/exec \/opt\/sublime_text\/sublime_text "$@"/LD_PRELOAD=\/opt\/sublime_text\/libsublime-imfix.so exec \/opt\/sublime_text\/sublime_text "$@"/g' /usr/bin/subl
 
 # fix sublime desktop
-# µã»÷×ÀÃæµÄsublimeÍ¼±ê±à¼­ÎÄ¼şµÄÊ±ºò, ¿ÉÒÔÊäÈëÖĞÎÄ
+# ç‚¹å‡»æ¡Œé¢çš„sublimeå›¾æ ‡ç¼–è¾‘æ–‡ä»¶çš„æ—¶å€™, å¯ä»¥è¾“å…¥ä¸­æ–‡
 sudo sed -i 's/Exec=\/opt\/sublime_text\/sublime_text \%F/Exec=bash -c "LD_PRELOAD=\/opt\/sublime_text\/libsublime-imfix.so exec \/opt\/sublime_text\/sublime_text \%F"/g' /usr/share/applications/sublime_text.desktop
 sudo sed -i 's/Exec=\/opt\/sublime_text\/sublime_text -n/Exec=bash -c "LD_PRELOAD=\/opt\/sublime_text\/libsublime-imfix.so exec \/opt\/sublime_text\/sublime_text -n"/g' /usr/share/applications/sublime_text.desktop
 sudo sed -i 's/Exec=\/opt\/sublime_text\/sublime_text --command new_file/Exec=bash -c "LD_PRELOAD=\/opt\/sublime_text\/libsublime-imfix.so exec \/opt\/sublime_text\/sublime_text --command new_file"/g' /usr/share/applications/sublime_text.desktop
