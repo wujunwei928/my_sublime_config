@@ -1,0 +1,142 @@
+/*
+    Anaconda default settings
+*/
+{
+    //代码提示背景
+    "anaconda_tooltip_theme": "dark",  // possible options "light" or "dark"
+
+
+    //指定python路径
+    "python_interpreter": "/home/wujunwei/anaconda2/bin/python",
+
+
+    //自动提示package和object的方法
+    "suppress_word_completions": true,
+    "suppress_explicit_completions": true,
+    "complete_parameters": true,
+
+
+    //异常提示主题：alpha, bright, dark, hard, retina, simple 默认是 'basic'
+    "anaconda_gutter_theme": "dark",
+    //异常提示样式，outline: 框框环绕  fill：背景填充 none：不提示
+    "anaconda_linter_mark_style": "outline",
+    //保存的时候，提示错误信息
+    "anaconda_linter_show_errors_on_save": true,
+
+
+    //pep8代码规范
+    /*
+        The following set of options controls the pep8 autoformating behaviour
+
+        The full list of errors that can be fixed are:
+
+            E101 - Reindent all lines.
+            E111 - Reindent all lines.
+            E121 - Fix indentation to be a multiple of four.
+            E122 - Add absent indentation for hanging indentation.
+            E123 - Align closing bracket to match opening bracket.
+            E124 - Align closing bracket to match visual indentation.
+            E125 - Indent to distinguish line from next logical line.
+            E126 - Fix over-indented hanging indentation.
+            E127 - Fix visual indentation.
+            E128 - Fix visual indentation.
+            E129 - Indent to distinguish line from next logical line.
+            E201 - Remove extraneous whitespace.
+            E202 - Remove extraneous whitespace.
+            E203 - Remove extraneous whitespace.
+            E211 - Remove extraneous whitespace.
+            E221 - Fix extraneous whitespace around keywords.
+            E222 - Fix extraneous whitespace around keywords.
+            E223 - Fix extraneous whitespace around keywords.
+            E224 - Remove extraneous whitespace around operator.
+            E225 - Fix missing whitespace around operator.
+            E226 - Fix missing whitespace around operator.
+            E227 - Fix missing whitespace around operator.
+            E228 - Fix missing whitespace around operator.
+            E231 - Add missing whitespace.
+            E241 - Fix extraneous whitespace around keywords.
+            E242 - Remove extraneous whitespace around operator.
+            E251 - Remove whitespace around parameter '=' sign.
+            E261 - Fix spacing before comment hash.
+            E262 - Fix spacing after comment hash.
+            E271 - Fix extraneous whitespace around keywords.
+            E272 - Fix extraneous whitespace around keywords.
+            E273 - Fix extraneous whitespace around keywords.
+            E274 - Fix extraneous whitespace around keywords.
+            E301 - Add missing blank line.
+            E302 - Add missing 2 blank lines.
+            E303 - Remove extra blank lines.
+            E304 - Remove blank line following function decorator.
+            E401 - Put imports on separate lines.
+            E501 - Try to make lines fit within --max-line-length characters.
+            E502 - Remove extraneous escape of newline.
+            E701 - Put colon-separated compound statement on separate lines.
+            E702 - Put semicolon-separated compound statement on separate lines.
+            E703 - Put semicolon-separated compound statement on separate lines.
+            E711 - Fix comparison with None.
+            E712 - Fix comparison with boolean.
+            W191 - Reindent all lines.
+            W291 - Remove trailing whitespace.
+            W293 - Remove trailing whitespace on blank line.
+            W391 - Remove trailing blank lines.
+            E26  - Format block comments.
+            W6   - Fix various deprecated code (via lib2to3).
+            W602 - Fix deprecated form of raising exception.
+    */
+
+    //保存文件的时候，自动根据pep8规范进行代码格式化
+    "auto_formatting": true,
+    //代码格式化超时时间
+    "auto_formatting_timeout": 1,  // seconds
+    //自动格式化时，忽略的pep8规则
+    "autoformat_ignore":
+    [
+        "E309","E501"
+    ],
+
+
+    /* 使用pep8代码风格检查 */
+
+    // Set this to false to turn pep8 checking off completely
+    "pep8": true,
+    /*
+        A list of pep8 error numbers to ignore.
+        The list of error codes is in this file: https://github.com/jcrocholl/pep8/blob/master/pep8.py.
+        Search for "Ennn:", where nnn is a 3-digit number.
+        E309 is ignored by default as it conflicts with pep257 E211
+    */
+    "pep8_ignore":
+    [
+        "E309","E501"
+    ],
+    // Maximum line length for pep8
+    "pep8_max_line_length": 79,
+    /*
+        You can override the level of PEP8 errors altering this mapping.
+        WARNING: Be careful with this option, the only valid error level values
+        are:
+
+            * E for errors (reduced to Warning by default)
+            * W for warnings (reduced to Violation by default)
+            * V for convention violations
+
+        If you set a value that is not listed here, anaconda will ignore your
+        setting
+    */
+    "pep8_error_levels": {"E": "W", "W": "V", "V": "V"},
+
+    
+
+
+
+
+
+    /*
+        Set this option to true if you get warnings about anaconda not
+        being able to connect to your localhost on ST3 startup but it
+        works normally after closing the error message.
+
+        NOTE: Ignore errors is dangerous do it under your own responsibility
+     */
+    "swallow_startup_errors": false
+}
