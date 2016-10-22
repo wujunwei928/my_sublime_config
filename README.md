@@ -27,7 +27,7 @@ http://https://packagecontrol.io/installation
 
     AdvancedNewFile      快速创建文件
     Alignment            代码格式的自动对齐
-    Anaconda             超强python提示插件  [官方文档:Anaconda Python IDE](http://damnwidget.github.io/anaconda/IDE/)
+    Anaconda             超强python提示插件  Anaconda Python IDE文档：http://damnwidget.github.io/anaconda/IDE/
     AutoFileName         文件路径提示插件
     ChineseLocalization  汉化插件(支持简体中文,繁体中文,日文)
     ColorPicker          颜色采集器
