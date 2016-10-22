@@ -19,7 +19,7 @@
     //异常提示主题：alpha, bright, dark, hard, retina, simple 默认是 'basic'
     "anaconda_gutter_theme": "dark",
     //异常提示样式，outline: 框框环绕  fill：背景填充 none：不提示
-    "anaconda_linter_mark_style": "outline",
+    "anaconda_linter_mark_style": "fill",
     //保存的时候，提示错误信息
     "anaconda_linter_show_errors_on_save": true,
 
