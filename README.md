@@ -166,3 +166,7 @@ http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/
 ### 其他
 https://github.com/jikeytang/sublime-text   
 http://vinta.ws/code/must-have-sublime-text-packages.html
+
+### 使用配置
+项目对应mac目录: ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/ , 项目clone下来之后, 修改为此对应目录
+
